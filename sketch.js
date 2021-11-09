@@ -36,7 +36,7 @@ function setup() {
 		density:0.4
 	}
 
-	ball = Bodies.circle(260,100,radius/2.6,ball_options);
+	ball = Bodies.circle(5,100,radius/2.6,ball_options);
 	World.add(world,ball);
 
 	ground=new Ground(width/2,670,width,20);
